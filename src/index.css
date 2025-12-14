@@ -14,11 +14,11 @@
 }
 
 @utility text-preset4-bold {
-    @apply text-[0.93rem] leading-[1.18rem] tracking-[0.12rem] font-bold font-overpass;
+    @apply text-[0.938rem] leading-[1.18rem] tracking-[0.12rem] font-bold font-overpass;
 }
 
 @utility text-preset4-regular {
-    @apply text-[0.93rem] leading-6 tracking-normal font-normal font-overpass;
+    @apply text-[0.938rem] leading-6 tracking-normal font-normal font-overpass;
 }
 
 @utility text-preset5-bold {

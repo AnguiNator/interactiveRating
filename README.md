@@ -1,16 +1,54 @@
-# React + Vite
+# 📌 Interactive Rating Component
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📝 Descripción
+Este proyecto es un reto de **Frontend Mentor** donde se construye un componente de calificación interactivo. El usuario puede seleccionar un número del **1 al 5** y, al enviar la calificación, se muestra una pantalla de agradecimiento con el valor seleccionado.
 
-Currently, two official plugins are available:
+El componente maneja estados visuales (normal, hover, seleccionado) y un cambio de vista dinámico utilizando **React y hooks**. El diseño es totalmente **responsive**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 📸 Capturas de pantalla
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+### 🟢 Estado inicial
+![Regular state](./screenshots/regular.png)
 
-## Expanding the ESLint configuration
+### 🟠 Estado activo
+![Active state](./screenshots/active.png)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🔵 Estado seleccionado
+![Selected state](./screenshots/selected.png)
+
+### 🙌 Vista Thank You
+![Thank you state](./screenshots/thankyou.png)
+
+---
+
+## 🛠 Tecnologías utilizadas
+- HTML5
+- CSS3
+- JavaScript
+- React
+- Vite
+- Tailwind CSS
+
+---
+
+## 🚀 Retos
+- Manejar el estado de la calificación y compartirlo entre componentes usando props.
+- Controlar el renderizado condicional para alternar entre la tarjeta de rating y la vista de agradecimiento.
+- Aplicar estilos dinámicos dependiendo del estado seleccionado.
+- Mantener el diseño fiel al reto original y hacerlo responsive.
+
+---
+
+## 📚 Aprendizajes
+- Mejor comprensión del flujo de datos en React usando `useState`.
+- Separación de responsabilidades mediante componentes reutilizables.
+- Uso práctico de Tailwind CSS para manejar estados visuales y responsive design.
+- Validación básica antes de permitir el envío del formulario.
+
+---
+
+## 👨‍💻 Autor
+**Jesus Anguiano**  
+GitHub: https://github.com/AnguiNator
