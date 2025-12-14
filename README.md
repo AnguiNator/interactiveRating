@@ -19,7 +19,7 @@ El componente maneja estados visuales (normal, hover, seleccionado) y un cambio 
 ![Selected state](./screenshots/selected.png)
 
 ### 🙌 Vista Thank You
-![Thank you state](./screenshots/thankyou.png)
+![Thank you state](./screenshots/thankYou.png)
 
 ---
 
